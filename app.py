@@ -252,7 +252,7 @@ if __name__ == "__main__":
         with gr.Row():
             # ------------ 左半边UI ----------------
             with gr.Column():
-                img_input = gr.Image().style(height=350)
+                img_input = gr.Image().scale(height=350)
                 mode_options = gr.Radio(
                     choices=size_mode,
                     label="证件照尺寸选项",
