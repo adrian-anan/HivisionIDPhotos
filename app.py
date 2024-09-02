@@ -407,4 +407,4 @@ if __name__ == "__main__":
             fn=set_example_image, inputs=[example_images], outputs=[img_input]
         )
 
-    demo.launch()
+    demo.launch(share=True)
